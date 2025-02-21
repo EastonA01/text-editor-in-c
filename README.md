@@ -23,16 +23,16 @@ To compile and run the text editor, you'll need:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/c-text-editor.git
-   cd c-text-editor
+   git clone https://github.com/eastona01/text-editor-in-c.git
+   cd text-editor-in-c
     ```
 2. Compile the program:
   ```sh
-  gcc -o editor editor.c -Wall -Wextra -pedantic -std=c11
+  gcc -o kilo kilo.c -Wall -Wextra -pedantic -std=c11
   ```
 3. Run the editor:
   ```sh
-  ./editor filename.txt
+  ./kilo filename.txt
   ```
 
 ### How It Works
@@ -41,7 +41,7 @@ This project was built step-by-step in 184 incremental changes, each carefully d
 ### Usage
 - Open a file:
   ```sh
-  ./editor filename.txt
+  ./kilo filename.txt
   ```
 - Navigation: Use arrow keys or mouse to move the cursor.
 - Editing: Type to insert characters, Backspace to delete.
